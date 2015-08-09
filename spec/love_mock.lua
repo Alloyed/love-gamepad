@@ -16,14 +16,14 @@ function joystick:getButtonCount()
 end
 
 function joystick:getGUID()
-   error("MOCK")
+   return self._guid
 end
 
 function joystick:getGamepadAxis()
    error("MOCK")
 end
 
-function joysticks:getGamepadMapping()
+function joystick:getGamepadMapping()
    error("MOCK")
 end
 
@@ -40,7 +40,7 @@ function joystick:getID()
 end
 
 function joystick:getName()
-   error("MOCK")
+   return self._name
 end
 
 function joystick:getVibration()
@@ -56,7 +56,7 @@ function joystick:isDown()
 end
 
 function joystick:isGamepad()
-   error("MOCK")
+   return true
 end
 
 function joystick:isGamepadDown(btn)
@@ -71,16 +71,24 @@ function joystick:setVibration()
    error("MOCK")
 end
 
+local sticks = {}
+for i=1, 4 do
+   table.insert(sticks, setmetatable({
+      _guid = "joy-" .. tostring(math.random()),
+      _name = "joystick " .. tostring(math.random())
+   }, joystick_mt))
+end
+
 function module.getJoystickCount()
-   error("MOCK")
+   return #sticks
 end
 
 function module.getJoysticks()
-   error("MOCK")
+   return sticks
 end
 
 function module.loadGamepadMappings()
-   error("MOCK")
+   --error("MOCK")
 end
 
 function module.saveGamepadMappings()
