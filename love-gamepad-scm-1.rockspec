@@ -1,11 +1,12 @@
 package = "love-gamepad"
 version = "scm-1"
 source = {
-   url = "*** please add URL for source tarball, zip or repository here ***"
+   url = "git://github.com/Alloyed/love-gamepad"
 }
 description = {
-   homepage = "*** please enter a project homepage ***",
-   license = "*** please specify a license ***"
+   summary = "A gamepad abstraction library",
+   homepage = "https://github/Alloyed/love-gamepad",
+   license = "MIT"
 }
 dependencies = {
    "lua ~> 5.1",

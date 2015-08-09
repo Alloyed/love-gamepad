@@ -1,11 +1,12 @@
-package = "love-gamepad"
+package = "love-gamepad-prompt"
 version = "scm-1"
 source = {
-   url = "*** please add URL for source tarball, zip or repository here ***"
+   url = "git://github.com/Alloyed/love-gamepad"
 }
 description = {
-   homepage = "*** please enter a project homepage ***",
-   license = "*** please specify a license ***"
+   summary = "display icons representing gamepad buttons",
+   homepage = "https://github.com/Alloyed/love-gamepad",
+   license = "MIT"
 }
 dependencies = {
    "lua ~> 5.1",
