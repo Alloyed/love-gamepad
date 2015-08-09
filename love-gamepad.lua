@@ -74,6 +74,7 @@ function gamepads.add_joypad(joy)
 		return joypads[joy]
 	end
 end
+
 function gamepads.add_keypad(cfg)
 	local pad = gamepad.new("Keyboard", "kb")
 	table.insert(active_pads, pad)
