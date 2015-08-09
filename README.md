@@ -16,7 +16,8 @@ TODO:
 
 ## love-gamepad-prompt
 An optional extensions for displaying button prompts based on gamepad
-type. It uses the [free content and controllers pack][C] by xelu.
+type. It uses the [free keyboard/controller prompts pack][C] by xelu,
+licensed CC0.
 
 If you'd like to make your own button prompts, all the detection code is
 in love-gamepad: just use 
@@ -24,10 +25,10 @@ in love-gamepad: just use
 ```
 gamepad:getStyle()
 ```
-to get the style, which can be any of [these styles][S]
+to get the controller style, which can be any of [these styles][S]
 
-[C]:https://opengameart.org/content/free-content-and-controllers-prompts-pack
-[S]:love-gampad/styles.lua
+[C]:http://opengameart.org/content/free-keyboard-and-controllers-prompts-pack
+[S]:love-gamepad/styles.lua
 
 ### Example
 ```lua
@@ -49,7 +50,7 @@ end
 
 See [main.lua][M] for a slightly more in-depth demo, using
 love-gamepad-prompt.
-[M] main.lua
+[M]:main.lua
 
 ### Tests
 Tests are written for busted. Install with
