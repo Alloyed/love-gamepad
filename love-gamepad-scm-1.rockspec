@@ -19,6 +19,7 @@ build = {
       ["love-gamepad.atlas"] = "love-gamepad/atlas/init.lua",
       ["love-gamepad.data"] = "love-gamepad/data.lua",
       ["love-gamepad.gamepad"] = "love-gamepad/gamepad.lua",
+      ["love-gamepad.styles"] = "love-gamepad/styles.lua",
       --["love-gamepad.multipad"] = "love-gamepad/multipad.lua"
    }
 }

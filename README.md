@@ -30,6 +30,14 @@ to get the controller style, which can be any of [these styles][S]
 [C]:http://opengameart.org/content/free-keyboard-and-controllers-prompts-pack
 [S]:love-gamepad/styles.lua
 
+## Installing
+
+Install either using loverocks
+```
+$ loverocks install love-gamepad love-gamepad-prompt
+```
+or by copy-pasting the love-gamepad folder into your game.
+
 ### Example
 ```lua
 local gamepads = require 'love-gamepad'
