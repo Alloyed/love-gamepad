@@ -1,6 +1,6 @@
 require 'spec.love_mock'
 
-local gamepad = require 'love-gamepad'
+local gamepad = require 'love-gamepad.init'
 
 
 describe("system", function()
