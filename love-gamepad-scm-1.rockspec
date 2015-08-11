@@ -16,7 +16,6 @@ build = {
    type = "builtin",
    modules = {
       ["love-gamepad"] = "love-gamepad/init.lua",
-      ["love-gamepad.atlas"] = "love-gamepad/atlas/init.lua",
       ["love-gamepad.data"] = "love-gamepad/data.lua",
       ["love-gamepad.gamepad"] = "love-gamepad/gamepad.lua",
       ["love-gamepad.styles"] = "love-gamepad/styles.lua",
